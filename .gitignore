@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+data/hopsworks-api-key.txt
 # C extensions
 *.so
 
@@ -162,3 +162,7 @@ cython_debug/
 
 snurran.sh
 .DS_Store
+
+
+data/hopsworks-api-key.txt
+data/aqi-api-key.txt
