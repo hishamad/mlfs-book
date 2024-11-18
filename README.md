@@ -9,6 +9,7 @@ The goal of lab 1 was to build and deploy a serverless ML regression prediction 
 Part 01: Feature Backfill for Air Quality Data
 In this part of the lab, the goal is to download the required data and upload it as a feature group to Hopsworks. The first step is to download the air quality data containing the daily pm2.5 measurements and the historical weather data. The second step is to do data cleaning which includes removing any rows that contain missing values(Nan values). The third step is to prepare the air quality and weather data frames. Here is a snapshot of both dataframes: 
 ![Dataframes](dataframes.png)
+
 Part 02: Feature Pipeline
 The goal of the feature pipeline is to automate the daily updates of our air quality and weather data as feature groups in Hopsworks. This pipeline also processes the latest data and cleanses inconsistent values to make sure our data is clean. Here we also include lagged features for the previous 3 days of pm2.5 values. Then the pipeline should register the air quality feature group and weather data feature group in Hopsworks.
 
