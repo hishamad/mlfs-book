@@ -7,7 +7,7 @@ The goal of lab 1 was to build and deploy a serverless ML regression prediction 
 [To view our prediction check this dashboard](https://hishamad.github.io/mlfs-book/air-quality/)
 
 #### Part 01: Feature Backfill for Air Quality Data
-In this part of the lab, the goal is to download the required data and upload it as a feature group to Hopsworks. The first step is to download the air quality data containing the daily pm2.5 measurements and the historical weather data. The second step is to do data cleaning which includes removing any rows that contain missing values(Nan values). The third step is to prepare the air quality and weather data frames. Here is a snapshot of both dataframes: 
+In this part of the lab, the goal is to download the required data and upload it as a feature group to Hopsworks. The first step is to download the air quality data containing the daily pm2.5 measurements and the historical weather data. The second step is to do data cleaning which includes removing any rows that contain missing values(Nan values). The third step is to prepare the air quality and weather data frames. The fourth step is to upload them as feature groups to hospworks. Here is a snapshot of both dataframes: 
 Air quality dataframe:
 ![image](https://github.com/user-attachments/assets/4b1fafb4-e211-48fe-903a-20fe1201b9e1)
 
